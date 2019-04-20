@@ -9,7 +9,7 @@ def Dversion = [
                 web:'2.1.3.RELEASE',
         ],
         plugin : [
-                lombok : "1.16.18"
+                lombok : "1.18.0"
         ],
         other : [
                 fastJson:"1.2.41",
@@ -26,7 +26,6 @@ def PconfigMap = [
                     fastjson: "com.alibaba:fastjson:${Dversion.other.fastJson}",
                     gson: "com.google.code.gson:gson:${Dversion.other.gson}",
                     javatuples:"org.javatuples:javatuples:${Dversion.other.javatuples}",
-                    lombok : "org.projectlombok:lombok:${Dversion.plugin.lombok}"
                 ],
         publish:[
                 remoteUrl:"http://47.101.138.152:8081/repository/twp/",
